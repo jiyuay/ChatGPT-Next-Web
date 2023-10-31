@@ -126,7 +126,7 @@ export function NewChat() {
           text={Locale.NewChat.Return}
           onClick={() => navigate(Path.Home)}
         ></IconButton>
-        {!state?.fromHome && (
+        {/* {!state?.fromHome && (
           <IconButton
             text={Locale.NewChat.NotShow}
             onClick={async () => {
@@ -138,7 +138,7 @@ export function NewChat() {
               }
             }}
           ></IconButton>
-        )}
+        )} */}
       </div>
       <div className={styles["mask-cards"]}>
         <div className={styles["mask-card"]}>
